@@ -1,0 +1,14 @@
+syntax = "proto3";
+package domain;
+
+// option go_package = "github.com/titaq/flyff/internal/domain";
+// import "github.com/AsynkronIT/protoactor-go/actor/protos.proto";
+
+message CharacterProps {
+    string conn_id = 1;
+    string id = 2;
+}
+
+message CharacterState {
+    string name = 1;
+}

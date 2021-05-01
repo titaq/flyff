@@ -1,0 +1,10 @@
+syntax = "proto3";
+package flyff;
+
+// option go_package = "github.com/titaq/flyff/internal/domain";
+// import "github.com/AsynkronIT/protoactor-go/actor/protos.proto";
+
+message FFPacketIn_Join {
+    uint32 auth_key = 1;
+    uint32 slot = 2;
+}
